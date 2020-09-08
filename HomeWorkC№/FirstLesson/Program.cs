@@ -39,8 +39,14 @@ namespace FirstLesson
             Console.WriteLine($"Длина: {sumRectangle["length"]} ");
             Console.WriteLine($"Высота: {sumRectangle["height"]}");
 
+
+            Console.WriteLine(sumRectangle.Description());
+
+
             Console.WriteLine();
 
+            Console.WriteLine($"казак = {"казак".IsPalindrome()}");
+            Console.WriteLine($"казаки = {"казаки".IsPalindrome()}");
 
             Console.ReadKey();
         }

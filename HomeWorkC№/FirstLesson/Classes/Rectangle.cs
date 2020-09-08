@@ -7,7 +7,7 @@ namespace FirstLesson.Classes
     /// <summary>
     /// Класс описывает Прямоугольник
     /// </summary>
-    class Rectangle
+    public class Rectangle
     {
         private int Length { get; set; }
         private int Height { get; set; }
@@ -65,10 +65,8 @@ namespace FirstLesson.Classes
                 {
                     case "length":
                         return Length;
-                        break;
                     case "height":
                         return Height;
-                        break;
                     default: 
                          throw new IndexOutOfRangeException();
                 }
